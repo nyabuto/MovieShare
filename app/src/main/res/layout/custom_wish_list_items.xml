@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:maxHeight="100dp"
+        android:id="@+id/wishList_titleImage"
+        android:layout_alignBottom="@+id/wishList_dateUploaded"
+        android:layout_alignTop="@+id/wishList_txtMovieTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Movie genre"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/wishList_txtMovieGenre"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/wishList_titleImage"
+        android:layout_toEndOf="@+id/wishList_titleImage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Movie name"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/wishList_txtMovieTitle"
+        android:layout_below="@+id/wishList_txtMovieGenre"
+        android:layout_toRightOf="@+id/wishList_titleImage"
+        android:layout_toEndOf="@+id/wishList_titleImage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Date uploaded"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/wishList_dateUploaded"
+        android:layout_below="@+id/wishList_txtMovieTitle"
+        android:layout_toRightOf="@+id/wishList_titleImage"
+        android:layout_toEndOf="@+id/wishList_titleImage" />
+
+</RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

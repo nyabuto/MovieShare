@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_watchedMovies"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Watched Movies" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_wishList"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="WishList" />-->
+
+
+        <item
+            android:id="@+id/nav_movies"
+            android:icon="@drawable/icon_movies"
+            android:title="Movies" />
+
+        <item
+            android:id="@+id/nav_series"
+            android:icon="@drawable/series_icon"
+            android:title="Series" />
+
+        <item
+            android:id="@+id/nav_mylist"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="My Favourites" />
+
+
+        <!--<item-->
+            <!--android:id="@+id/nav_requested"-->
+            <!--android:icon="@drawable/request"-->
+            <!--android:title="Pending Movie Requests" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_my_request"-->
+            <!--android:icon="@drawable/request"-->
+            <!--android:title="My Requests." />-->
+
+    </group>
+
+    <item android:title="Best Movies">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_mostWatched"-->
+                <!--android:icon="@drawable/statistics"-->
+                <!--android:title="Most Watched" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_mostWished"-->
+                <!--android:icon="@drawable/statistics"-->
+                <!--android:title="Most Wished" />-->
+
+
+            <item
+                android:id="@+id/nav_statistics"
+                android:icon="@drawable/statistics_icon"
+                android:title="Statistics" />
+
+            <item
+                android:id="@+id/nav_MyMovies"
+                android:icon="@drawable/aboutus"
+                android:title="My Movies" />
+
+            <item
+                android:id="@+id/nav_requested"
+                android:icon="@drawable/icon_requestedmovies"
+                android:title="Requested Movies" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="About Us.">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/aboutus"
+                android:title="About Us" />
+
+
+
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="softikoda.com.movieshare">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <!-- for maps -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MoviShare"
+            android:label="@string/title_activity_movi_share"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterUser"
+            android:label="@string/title_activity_register_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddShareMovie"
+            android:label="@string/title_activity_add_share_movie"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MostWatched"
+            android:label="@string/title_activity_most_watched"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MostWished"
+            android:label="@string/title_activity_most_wished"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShareRequests"
+            android:label="@string/title_activity_share_requests"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProcessedRequests"
+            android:label="@string/title_activity_processed_requests"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Movies"
+            android:label="@string/title_activity_movies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyList"
+            android:label="@string/title_activity_movies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Statistics"
+            android:label="@string/title_activity_statistics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Collapsible"
+            android:label="@string/title_activity_collapsible"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MovieActions"
+            android:label="@string/title_activity_movie_actions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyMovies"
+            android:label="@string/title_activity_my_movies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RequestedMovies"
+            android:label="@string/title_activity_requested_movies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Actions"
+            android:label="@string/title_activity_actions"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

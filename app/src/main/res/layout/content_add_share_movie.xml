@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="softikoda.com.movieshare.AddShareMovie"
+    tools:showIn="@layout/activity_add_share_movie">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:textStyle="bold"
+    android:id="@+id/addShareMovie_genre"
+    android:entries="@array/movie_genre_data"
+    android:background="@color/gray_light"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="5dp"
+    />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter movie name"
+            android:layout_height="58dp"
+            android:layout_below="@+id/addShareMovie_genre"
+            android:layout_marginTop="5dp"
+            android:textAlignment="gravity"
+            android:id="@+id/addShare_MovieName"/>
+</android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_layout_name"
+            >
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter movie cost"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="58dp"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:textAlignment="gravity"
+            android:id="@+id/movie_cost"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+</android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addShare_imageUpload"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/addShare_MovieName"
+            android:layout_alignRight="@+id/addShare_MovieName"
+            android:layout_alignEnd="@+id/addShare_MovieName"
+            android:layout_marginRight="28dp"
+            android:layout_marginEnd="28dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/addShare_camera_options"
+            android:entries="@array/camera_data"
+            android:background="@color/gray_light"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/addShare_imageUpload"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:text="Save Movie"
+            style="@style/button"
+            android:layout_height="54dp"
+            android:id="@+id/addShare_btnSaveMovie"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_below="@+id/addShare_camera_options"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+   </ScrollView>
+</RelativeLayout>

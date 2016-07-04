@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add to watchlist"
+        style="@style/btn_defaultstyle"
+        android:id="@+id/btn_childpopup_watchlist" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add to wishlist"
+        style="@style/btn_defaultstyle"
+        android:id="@+id/btn_childpopup_wishlist"
+        android:layout_below="@+id/btn_childpopup_watchlist"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Request"
+        style="@style/btn_defaultstyle"
+        android:id="@+id/btn_childpopup_request"
+        android:layout_below="@+id/btn_childpopup_wishlist"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="17dp" />
+</RelativeLayout>

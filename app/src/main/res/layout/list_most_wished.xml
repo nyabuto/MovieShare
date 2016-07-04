@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image_most"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Movie Genre"
+        android:id="@+id/movieGenre_most"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image_most"
+        android:layout_toEndOf="@+id/image_most" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Movie name"
+        android:id="@+id/movieName_most"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/movieGenre_most"
+        android:layout_toRightOf="@+id/image_most"
+        android:layout_toEndOf="@+id/image_most" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="No of people"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/noPeople_most"
+        android:layout_below="@+id/movieName_most"
+        android:layout_toRightOf="@+id/image_most"
+        android:layout_toEndOf="@+id/image_most" />
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/ifThere_most"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/noPeople_most"
+        android:layout_toRightOf="@+id/image_most"
+        android:layout_toEndOf="@+id/image_most" />
+</RelativeLayout>

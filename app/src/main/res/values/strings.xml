@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">MovieShare</string>
+    <string name="title_activity_near_movies">Map</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_register">Register</string>
+    <string-array name="userType">
+        <item>User</item>
+        <item>Shop Owner</item>
+    </string-array>
+    <string-array name="registration_type">
+        <item>Shop</item>
+        <item>User</item>
+    </string-array>
+    <string-array name="camera_data">
+        <item>Choose Image Option</item>
+        <item>Take Picture</item>
+        <item>Upload from Gallery</item>
+
+    </string-array>
+
+    <string-array name="movie_genre_data">
+        <item>Choose Movie Genre</item>
+        <item>Movie</item>
+        <item>Series</item>
+        <!--<item>Soap</item>-->
+    </string-array>
+
+
+    <string name="title_activity_movi_share">Movi Share Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wish_list">WishList</string>
+    <string name="title_activity_movies_watched">Movies Watched</string>
+    <string name="title_activity_register_user">Register User</string>
+    <string name="title_activity_add_wish_list">New Wish List Movie</string>
+    <string name="title_activity_add_watched_movie">Add Watched Movie</string>
+    <string name="title_activity_add_share_movie">Add Share Movie</string>
+    <string name="title_activity_most_watched">Most Watched Movies</string>
+    <string name="title_activity_most_wished">Most Wished Movies</string>
+    <string name="title_activity_register">Movie Share App.</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_share_requests">Share Requests</string>
+    <string name="title_activity_processed_requests">Processed Requests</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_movies">Movies</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_my_list">My Favourite</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_series">Series</string>
+    <string name="title_activity_collapsible">Collapsible</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="more">More</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_movie_actions">Movie Actions</string>
+    <string name="title_activity_my_movies">My Movies</string>
+    <string name="title_activity_requested_movies">Requested Movies</string>
+    <string name="data">
+Computer Security, techniques developed to safeguard information and information systems stored on
+computers. Potential threats include the destruction of computer hardware and software and the loss,
+modification, theft, unauthorized use, observation, or disclosure of computer data.
+Computers and the information they contain are often considered confidential systems because their
+use is typically restricted to a limited number of users. This confidentiality can be compromised in a
+variety of ways. For example, computers and computer data can be harmed by people who spread
+computer viruses and worms. A computer virus is a set of computer program instructions that
+attaches itself to programs in other computers. The viruses are often parts of documents that are
+transmitted as attachments to e-mail messages. A worm is similar to a virus but is a self-contained
+program that transports itself from one computer to another through networks. Thousands of viruses
+and worms exist and can quickly contaminate millions of computers.
+People who intentionally create viruses are computer experts often known as hackers. Hackers also
+violate confidentiality by observing computer monitor screens and by impersonating authorized users
+of computers in order to gain access to the users’ computers. They invade computer databases to
+steal the identities of other people by obtaining private, identifying information about them. Hackers
+also engage in software piracy and deface Web sites on the Internet. For example, they may insert
+malicious or unwanted messages on a Web site, or alter graphics on the site. They gain access to Web
+sites by impersonating Web site managers.
+
+    </string>
+    <string name="title_activity_actions">Actions</string>
+
+</resources>

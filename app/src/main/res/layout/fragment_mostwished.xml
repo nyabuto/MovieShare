@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="softikoda.com.movieshare.MostWished"
+    tools:showIn="@layout/activity_most_wished">
+
+    <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/list_mostWished"-->
+        <!--android:background="@color/LightGrey"-->
+        <!--android:dividerHeight="5dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipeRefresh"
+        >
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fadingEdgeLength="5dp"
+        android:padding="10dp"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="15dp"
+        android:background="@color/material_blue_50"
+        android:numColumns="2" >
+
+    </GridView>
+</android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>
